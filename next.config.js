@@ -2,8 +2,13 @@
 
 const nextConfig = {
     images: {
-        domains: ['images.unsplash.com'],
-    }
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'images.unsplash.com',
+          },
+        ],
+      },
 };
 
 if (process.env.NEXT_PUBLIC_TEMPO) {
