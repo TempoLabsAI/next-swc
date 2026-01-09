@@ -43,8 +43,7 @@ next-env.d.ts
 # Tempo
 
 node_modules/
-**/tempobook/dynamic/
-**/tempobook/storyboards/
+**/tempobook/**
 
 # remove git history
 .git
